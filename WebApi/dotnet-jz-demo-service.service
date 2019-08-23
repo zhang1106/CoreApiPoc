@@ -1,0 +1,14 @@
+[Unit]  
+Description=Dotnet Core Demo service  
+  
+[Service]  
+ExecStart=/usr/share/dotnet/dotnet WebApi.dll --console  
+WorkingDirectory=/home/jzhang/poc/coreApi 
+User=dotnetuser  
+Group=dotnetuser  
+Restart=on-failure  
+SyslogIdentifier=dotnet-jz-demo-service  
+PrivateTmp=true  
+  
+[Install]  
+WantedBy=multi-user.target  

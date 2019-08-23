@@ -1,0 +1,1 @@
+docker build -t "webapi" -f "C:/Workplace/git/Labs/DotNetCoreApi/WebApi/Dockerfile" --label "com.microsoft.created-by=visual-studio" ".."

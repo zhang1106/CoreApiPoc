@@ -1,2 +1,2 @@
-# CoreApiPoc
-Core Api works for both windows and linux
+# Labs
+labs for POC
